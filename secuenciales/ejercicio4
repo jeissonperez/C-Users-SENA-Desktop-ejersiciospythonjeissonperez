@@ -1,0 +1,7 @@
+nombre=(input("digite su nombre: "))
+sueldo=int(input("digite el segundo numero: "))
+comision=int(input("digite el tercer numero: "))
+ventasrealizadas=int(input("digite el primer numero: "))
+comisiones=ventasrealizadas/100
+rescomision=comisiones*comision
+print(f"El vendedor {nombre}, tiene un sueldo de {sueldo}, durante el mes obtuvo una comisión de {rescomision} y el valor final a pagar es: {sueldo+ventasrealizadas}")

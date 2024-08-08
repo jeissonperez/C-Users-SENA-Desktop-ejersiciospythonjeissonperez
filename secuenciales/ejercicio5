@@ -1,0 +1,5 @@
+valordelacompra=int(input("digite el valor de la compra: "))
+valordedescuento=int(input("digite el valor del descuento: "))
+descuento=(valordedescuento*valordelacompra)/100
+total=valordelacompra-descuento
+print(f"La compra fue {valordelacompra}, con un descuento de {valordedescuento} y el valor final a pagar es {total}")
