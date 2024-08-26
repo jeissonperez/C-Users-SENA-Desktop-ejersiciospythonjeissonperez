@@ -1,0 +1,9 @@
+# Ejercicio 1 Desarrolle un programa que declare tres variables. La primera guardará el nombre del estudiante,
+# la segunda el nombre del colegio, la tercera el grado que cursa. Y luego imprima el siguiente
+# mensaje: “El estudiante xxxx estudia en el yyyy el programa de formación zzzz”
+# Donde xxxx será la variable donde almacenó el nombre, yyyy donde almacenó la institución y zzzz
+# donde almacenó la formación
+nombre=(input("nombre del estudiante "))
+colegio=(input("nombre del colegio: "))
+curso=(input("grado que cursa: "))
+print(f"El estudiante {nombre} estudia en el {colegio} el programa de formación {curso}")

@@ -1,7 +1,14 @@
-nombre=(input("digite su nombre: "))
-sueldo=int(input("digite el segundo numero: "))
-comision=int(input("digite el tercer numero: "))
-ventasrealizadas=int(input("digite el primer numero: "))
-comisiones=ventasrealizadas/100
-rescomision=comisiones*comision
-print(f"El vendedor {nombre}, tiene un sueldo de {sueldo}, durante el mes obtuvo una comisión de {rescomision} y el valor final a pagar es: {sueldo+ventasrealizadas}")
+#Ejercicio 4
+# Construya un algoritmo que calcule el sueldo total de un vendedor, dado su sueldo base y las
+# comisiones de sus ventas. Para esto es necesario definir una variable que almacene el nombre del
+# vendedor, una variable que almacene el sueldo y otra variable que almacene el valor de la comisión
+# de las ventas realizadas. Se debe calcular el valor final de sueldo. El algoritmo debe imprimir el
+# nombre del vendedor, el valor del sueldo, el valor de su comisión y el sueldo total del vendedor.
+nombre= input("digite su nombre: ")
+sueldo=int (input("digite el sueldo: "))
+comision=int (input("digite la comision : "))
+ventasrealizadas=int(input("digite las ventas realizadas: "))
+comisiones= (ventasrealizadas/100) * comision
+sueldo_final = comisiones + sueldo
+
+print(f"el trabajador {nombre} tiene un sueldo de: {sueldo} y una comision de: {comision} en este mes realizo {ventasrealizadas} ventas con esto tuvo un total de {comisiones} comisiones conseguidas y un sueldo final de {sueldo_final}")
