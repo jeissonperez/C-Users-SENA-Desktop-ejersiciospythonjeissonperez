@@ -1,4 +1,10 @@
-#creo los contadores ejercicio 11
+# ejercicio 11:Pedir los datos de los alumnos, estos son: sexo, edad y altura. Al final del programa
+# se deberá mostrar la cantidad de hombres, la cantidad de mujeres, la altura promedio
+# la cantidad de alumnos que tienen una altura mayor a 1.70 cm, la cantidad de alumnos
+# que tiene una altura menor o igual a 1.50 cm. El programa debe finalizar cuando la edad
+# sea igual a 0.
+# ----------------------------------------------------------------------------------------
+# creo los contadores 
 mujeres=0
 
 

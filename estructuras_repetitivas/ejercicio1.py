@@ -1,4 +1,5 @@
-# ejercicio 1 escribo los contadores de positivo, negativo y neutro
+# ejercicio 1 :Leer 20 números e imprimir cuantos son positivos, cuantos negativos y cuantos neutros
+# escribo los contadores de positivo, negativo y neutro
 positivo = 0
 negativo = 0
 neutro = 0

@@ -1,4 +1,11 @@
-
+#un grupo de 23 estudiantes presentan un examen de algoritmia. Hacer un
+#algoritmo que lea por cada estudiante la calificación obtenida. Al finalizar calcule e
+#imprima:
+#• La cantidad de estudiantes que obtuvieron una calificación menor a 50.
+#• La cantidad de estudiantes que obtuvieron una calificación de 50 o más pero menor que 70.
+#• La cantidad de estudiantes que obtuvieron una calificación de 70 o más pero menor que 80.
+#• La cantidad de estudiantes que obtuvieron una calificación de 80 o más
+#----------------------------------------------------------------------------
 #creo los contadores de los estudiantes
 estudiantesMenor50=0
 estudiantes_50_70=0
@@ -21,8 +28,8 @@ for i in range(23):
 #se imprime el numero total de estudiantes de cada valor
 print(f"----------------------------------------------------------")
 print(f"La cantidad de estudiantes que obtuvieron una calificación menor a 50 son:{estudiantesMenor50} ")
-print(f"La cantidad de estudiantes que obtuvieron una calificación de 50 o más pero menor que 70:{estudiantes_50_70} ")
-print(f"La cantidad de estudiantes que obtuvieron una calificación de 70 o más pero menor que 80:{estudiantes_70_80} ")
-print(f"La cantidad de estudiantes que obtuvieron una calificación de 80 o más:{estudiantes_80_100} ")
+print(f"La cantidad de estudiantes que obtuvieron una calificación de 50 o más pero menor que 70 son:{estudiantes_50_70} ")
+print(f"La cantidad de estudiantes que obtuvieron una calificación de 70 o más pero menor que 80 son:{estudiantes_70_80} ")
+print(f"La cantidad de estudiantes que obtuvieron una calificación de 80 o más son:{estudiantes_80_100} ")
 
     
